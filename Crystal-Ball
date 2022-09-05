@@ -1,0 +1,18 @@
+import java.util.Random;
+
+public class CrystalBallFortunes {
+	
+	static String[] fortunes = {"You will locate treasure!", 
+			"You will find the love of your life!",
+			"You will work at a wonderful job!",
+			"You will become famous!",
+			"You will have good luck!" };
+	
+	public static void main(String[] args) {
+		Random rand = new Random();
+		int r = rand.nextInt(fortunes.length);
+		System.out.println(fortunes[r]); 
+		
+	}
+	
+}
